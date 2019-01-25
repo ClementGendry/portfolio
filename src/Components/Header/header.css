@@ -1,0 +1,16 @@
+#header {
+    background-image: url('https://bit.ly/2G18B2f');
+    background-size: cover;
+    color: #fff;
+}
+
+.header_infos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
