@@ -1,6 +1,9 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+// Libs import
+import { Grid, Row, Col } from 'react-bootstrap';
+// Assets import
+import headerImage from '../../Assets/profilePicture.jpg';
 import './header.css';
 
 class Header extends React.Component {
@@ -30,6 +33,7 @@ class Header extends React.Component {
                 <Grid fluid="true">
                     <Row>
                         <Col md={12} className="header_infos center">
+                            <img  src={headerImage} className="profile-picture" alt="fireSpot"/>
                             <h1>Clément Gendry</h1>
                             <h3>Développeur Front-End pour Rakuten</h3>
                         </Col>

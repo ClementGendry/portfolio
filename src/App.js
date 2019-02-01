@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import Header from './Components/Header/index';
-import Test from './Components/Test/index';
+import TopBar from './Components/Topbar/index';
+// Libs import
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faFilePdf);
 
 class App extends Component {
   render() {
     return (
       <div>
+        <TopBar />
         <Header />
-        <Test 
-          phrase="J'ai envie de manger un macdo sur la plage
-                  Demain matin, je passerai l'aspirateur puis j'aroserai mes plantes.
-                  Ensuite, je préparerai mes affaires pour aller chez Maëlle"
-        />
       </div>
     );
   }

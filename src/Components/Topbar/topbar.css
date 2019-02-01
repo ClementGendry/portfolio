@@ -1,0 +1,24 @@
+.topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    z-index: 99;
+}
+
+.topbar svg {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 20px;
+    float: right;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
+.topbar svg:hover {
+    color: #000;
+    transition: 0.4 ease-in;
+}
