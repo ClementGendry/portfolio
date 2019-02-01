@@ -1,0 +1,24 @@
+.footer {
+    background-color: #2c3e50;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height: 50px; 
+}
+
+.footer p {
+    margin: 0;
+    line-height: 50px;
+}
+
+.footnote .fa-react {
+    color: #2ecc71;
+    font-size: 1.3em;
+    margin: 0 4px;
+}
+
+.footnote .fa-heart {
+    color: #c0392b;
+    font-size: 1.3em;
+    margin: 0 4px;
+}
