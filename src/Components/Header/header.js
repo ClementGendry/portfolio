@@ -30,7 +30,7 @@ class Header extends React.Component {
         const height = {height: this.state.height};
         return (
             <div id="header" style={height}>
-                <Grid fluid="true">
+                <Grid fluid>
                     <Row>
                         <Col md={12} className="header_infos center">
                             <img  src={headerImage} className="profile-picture" alt="fireSpot"/>

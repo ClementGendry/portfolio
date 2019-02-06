@@ -1,0 +1,27 @@
+.hetic_logo img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hetic_infos {
+    position: relative;
+}
+
+.hetic_infos p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-58%);
+}
+
+@media (max-width: 767px) {
+    #about-me .title {
+     margin-bottom: 30px;   
+    }
+    .hetic_infos p {
+        position: relative;
+        top: 0;
+        transform: inherit;
+    }
+}
